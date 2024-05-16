@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Player Dashboard</h1>
+    <h2>Welcome, Player!</h2>
+    <div id="game-info">
+        <h3>Game Code: <span id="game-code"></span></h3>
+        <h3>Round Category: <span id="category"></span></h3>
+        <h3>Question: <span id="question"></span></h3>
+        <h3>Place Your Bet:</h3>
+        <input type="number" id="bet-amount" placeholder="Enter Bet Amount">
+        <button onclick="placeBet()">Place Bet</button>
+    </div>
+    <div id="message"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
