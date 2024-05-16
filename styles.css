@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+input[type="text"], input[type="number"], button {
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+#game-info {
+    margin-top: 20px;
+}
